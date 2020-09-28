@@ -12,10 +12,13 @@
 ### Setup
 
   Virtual Env
+  
     Set policy in Powershell
 	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+    Virtual Env
 	py -3 -m venv .venv
 	.venv\scripts\activate  
+	
   Install modules
 	python -m pip install matplotlib
 	python -m pip install html5lib
